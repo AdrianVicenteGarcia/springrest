@@ -1,0 +1,4 @@
+FROM gradle:latest
+WORKDIR /.opt/springrest-grandle
+COPY build/libs/demo-0.0.1-SNdemo-0.0.1-SNAPSHOT.jar PSHOT.jar ./
+CMD java demo-0.0.1-SNAPSHOT.jar
